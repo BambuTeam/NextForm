@@ -9,7 +9,12 @@ import Logo from '../components/assets/img/logobcs.svg';
 const banner=()=>(
     <div>
     <Container className="logo">
-     < Image src={Logo} alt='logo_bcs'/>
+    < Image src={Logo}
+     alt='logo_bcs'
+     width={50}
+     height={50}
+     
+    />
     </Container>
     </div>
     )

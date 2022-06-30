@@ -41,6 +41,19 @@ const form=()=>(
                         <option value="5"> El Progreso </option>
                         <option value="6"> Escuintla </option>
                         <option value="7"> Guatemala </option>
+                        <option value="8"> Huehuetenango </option>
+                        <option value="9"> Izabal </option>
+                        <option value="10"> Jutiapa </option>
+                        <option value="11"> Petén </option>
+                        <option value="12"> Quetzaltenango </option>
+                        <option value="13"> Quiché </option>
+                        <option value="14"> Quiché </option>
+
+
+
+
+
+
 
 
                     </Form.Select>

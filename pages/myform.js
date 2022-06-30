@@ -47,15 +47,14 @@ const form=()=>(
                         <option value="11"> Petén </option>
                         <option value="12"> Quetzaltenango </option>
                         <option value="13"> Quiché </option>
-                        <option value="14"> Quiché </option>
-
-
-
-
-
-
-
-
+                        <option value="14"> Retalhuleu </option>
+                        <option value="15"> Sacatepéquez </option>
+                        <option value="16"> San Marcos</option>
+                        <option value="17"> Santa Rosa</option>
+                        <option value="18"> Sololá </option>
+                        <option value="19"> Suchitepéquez </option>
+                        <option value="20"> Totonicapán </option>
+                        <option value="21"> Zacapa </option>
                     </Form.Select>
                 </Form.Group>
 

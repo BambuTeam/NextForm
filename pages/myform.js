@@ -1,10 +1,15 @@
 import React from "react"; 
 import 'bootstrap/dist/css/bootstrap.css'
 import { Container, Row, Col, Form, Button} from 'react-bootstrap';
+import Banner from '../pages/banner';
 
 const form=()=>(
     <div className="form_data">
     <Container>
+        <Row>
+            <Banner />
+        </Row>
+
         <Row>
             <Col>
             <Form>

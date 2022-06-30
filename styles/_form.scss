@@ -1,6 +1,20 @@
+@font-face {
+    font-family: BCS_Bold;
+    src: url(../components/assets/fonts/Bold.otf);
+  }
+
+  @font-face {
+    font-family: BCS_Media;
+    src: url(../components/assets/fonts/Media.otf);
+  }
+
+  @font-face {
+    font-family: BCS_Line;
+    src: url(../components/assets/fonts/Line.otf);
+  }
 
 
-input, select{
+  input, select{
     font-family: BCS_Media;
     color: #ce0e2d;
     
@@ -21,14 +35,14 @@ input, select{
 
 .form-control {
     color: #ce0e2d;
-    border: solid 1px #ce0e2d;
+    border: solid 1px #ce0e2d !important;
 
 }
 
 
 .form-select {
-    color: #ce0e2d;
-    border: solid 1px #ce0e2d;
+    color: #ce0e2d !important;
+    border: solid 1px #ce0e2d !important;
 
 }
 
@@ -52,14 +66,17 @@ body{
     background-color: $bg_body !important;
 }
 
-.logo img{
+.logo{
     margin-top: 50px;
-    display: block;
-    max-width: 15%;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+
+    &Image{
+    max-width: 1%;
+
+    }
+
 }
+
+
 
 .City {
     margin-top: 20px;
